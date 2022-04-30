@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+
+}
+body{
+	background-image:url("background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+li, a, p, h1, h2, h3 {
+	display: vertical;
+	font-family: "Gabriola";
+	font-weight: 300;
+	font-size: 30px;
+	color: red;
+	text-shadow: 1px 1px green;
+	text-decoration: none;
+	
+}
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px 10%;
+}
+.logo{ 
+ cursor: pointer;
+ width: 700px;
+ height: 200px;
+ background-image: url("logo.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ box-shadow: 10px 10px 5px green; 
+}
+.nav_links {
+	list-style: none;
+}
+.nav_links li {
+	display: inline-block;
+	padding: 20px 20px;
+}
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+	color: red;
+	text-shadow: 1px 1px green;
+	font-family: "Gabriola";
+	font-weight: 100;
+}
+.nav_links li a:hover {
+	color: green;
+}
+
+.table{
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 30px;
+	width: 550px;
+
+}
+	
+.table tr th{
+	background-color: lightcoral;
+	text-align: center;
+	font-family: "Gabriola";
+	color: white;
+
+
+}
+.table tr td{
+	text-align: center;
+	font-family: "Gabriola";
+	color: darkgreen;
+}
+
+
+.pizza {
+	border: 2px solid red;
+	width: 200px;
+	height: 100 px;
+	box-shadow: 10px 10px 5px green;
+}
+
+
+video{
+	width: 500px;
+}
+.review-form{
+	max-width: 500px;
+	margin: 2rem auto;
+	padding:2rem; 
+	font-family: "Gabriola";
+	color: red;
+	text-shadow: 1px 1px green;
+	font-size: 30px;
+	font-weight: 50px;
+}
+  label{
+	   display: block;
+  }
+  input, textarea{
+	  display: block;
+	  width: 100px;
+  }
